@@ -1,0 +1,20 @@
+/** 
+timer-circle is a div class for creating a circle
+with text in the center.  the paragraph is the text in he center.  an sv circle is used todraw the cricle. 
+*/
+.timer-circle {
+  position: relative;
+  background-color: yellow;
+  width: 360px;
+}
+.timer-circle p {
+  text-align: center;
+  position: absolute;
+  font-size: 40px;
+  line-height: 350px;
+  width: 100%;
+  z-index: 2;
+}
+.timer-circle svg {
+  transform: rotate(-90deg);
+}

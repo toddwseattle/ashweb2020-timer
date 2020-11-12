@@ -1,0 +1,24 @@
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<script defer src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<h1>Timer</h1>
+	<form id="settime">
+		<label for="text">Seconds</label>
+		<input type="text" id="seconds" name="seconds" />
+		<button type="submit">Start</button>
+	</form>
+	<div class="timer-circle">
+		<p id="timedisplay">#</p>
+		<svg width="400px" height="400px" xmlns="http//www.w3.org/2000svg">
+			<circle id="timecircle" stroke-width="20" cx="180" cy="180" r="120" fill="blue" stroke="red" />
+		</svg>
+	</div>
+</body>
+
+</html>
